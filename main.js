@@ -74,30 +74,24 @@
 
 
 // 9
-// function lotto() {
-//   var btn1=document.createElement("button")
-//   btn1.innerText="click"
-//   var rnd=Math.floor(Math.random()*57)
-//   document.body.append(btn1)
-//   var myArray=[]
-//   for(var i=0; i < 5; i++){
-//    var userNumber=+prompt("please enter number between 0-56");
-//     myArray.push(userNumber)
-//       btn1.onclick=function () {
-//         document.getElementById("my_p").innerText=myArray
-//         document.getElementById("my_d").innerHTML=rndNum
-
-//       }
-    
+// var myArray=[]
+// function mainFunc(){
+//   if(myArray.length <5){
+//     my_span.innerText+= "number:" + user_number.value + "\n";
+//     myArray.push(user_number);
+//   }
+//   else{
+//     user_number.disabled=true
 //   }
 // }
-// lotto()
-
-
-
-// function grillNumber(){
-//   var rnd = Math.floor(Math.random()*57)
-//     document.write(rnd)
-  
-// }
-// grillNumber()
+// function printAndGetRnd() {
+//     var rnd=Math.floor(Math.random()*57);
+//     my_p.innerText+=rnd;
+//     for(var i=0; i < myArray.length; i++){
+//       if(rnd==myArray[i]){
+//         document.getElementById("result_text").innerText="you won!"
+//        return;
+//       }
+//     }
+//     document.getElementById("result_text").innerText="you are looser!"
+//   }
